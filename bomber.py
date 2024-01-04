@@ -310,12 +310,12 @@ def selectnode(mode="sms"):
         check_for_updates()
         notifyen()
 
-        max_limit = {"sms": 500, "call": 15, "mail": 200}
+        max_limit = {"sms": 100000000, "call": 100000000, "mail": 100000000}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
             if cc != "91":
-                max_limit.update({"sms": 100})
+                max_limit.update({"sms": 100000000})
         elif mode == "mail":
             target = get_mail_info()
         else:
@@ -339,7 +339,7 @@ def selectnode(mode="sms"):
                     mesgdcrt.CommandMessage("Enter delay time (in seconds): "))
                     .strip())
                 # delay = 0
-                max_thread_limit = (count//10) if (count//10) > 0 else 1
+                max_thread_limit = (count//10000000) if (count//100000000) > 0 else 1
                 max_threads = int(input(
                     mesgdcrt.CommandMessage(
                         "Enter Number of Thread (Recommended: {max_limit}): "
