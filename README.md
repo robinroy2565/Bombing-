@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/TheSpeedX/TBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
+  <a href="https://github.com/robinroy2565/Bombing-.git"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
   <br>
   TBomb v2.1b
   <br>
@@ -83,7 +83,7 @@ To use the bomber type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/robinroy2565/Bombing-.git
 cd TBomb
 ./TBomb.sh
 ```
@@ -97,7 +97,7 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/robinroy2565/Bombing-.git
 cd TBomb
 pip3 install -r requirements.txt
 chmod +x TBomb.sh
@@ -109,7 +109,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/robinroy2565/Bombing-.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -131,7 +131,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/robinroy2565/Bombing-.git
 cd TBomb
 bash TBomb.sh
 ```
